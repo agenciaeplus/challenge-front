@@ -20,7 +20,7 @@ Então mãos a obra e bom challenge ;)
 - Descreva as funcionalidades do seu desafio, nos conte tudo que fez! Se fez o desafio utilizando pré-processadores, por exemplo, pois usaremos estas informações para avaliá-lo. 
 - O ideal é que este challenge leve até 8h.
 - Faça commits parciais, para que possamos acompanhar o seu desenvolvimento.
-- Em caso de dúvidas, entre em contato com rodrigo.freitas@agenciaeplus.com.br ou nadia@agenciaeplus.com.br
+- Em caso de dúvidas, entre em contato com nadia@agenciaeplus.com.br
 
 ## Dicas
 
