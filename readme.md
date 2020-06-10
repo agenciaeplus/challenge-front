@@ -36,3 +36,27 @@ Então mãos a obra e bom challenge ;)
 - Boa descrição das funcionalidades do desafio
 - Fidelidade ao design proposto
 - Adaptação mobile
+
+## Resolução
+
+- Na resolução do problema decidi utilizar React.JS por ser uma tecnologia que está super em alta no mercado, e também por estar no meu roadmap de estudos.
+- Foi criado um componente Header para mostrar em tela o menu, dentro desse componente alguns dados foram tratados para trazer o resultado correto.
+- Utilizei algumas bibliotecas para facilitar o trabalho, tais como: 
+ - Sass como pré processador css.
+ - React-icons para trazer os dados do material icons.
+- Depois de toda a estrutura montada e estilo finalizado, foi criado as funções para tratar os dados, tais como: 
+ - Reduce do JavaScript para trazer o valor total dos itens.
+ - ToLocaleString do JavaScript para converter o valor total em reais.
+ - Substr do JavaScript para trazer o texto do produto formatado.
+ - UseEffect do React para preencher o front-end com todos os dados, assim que a tela for carregada.
+ - UseState do React para guardar e atualizar os dados na tela.
+- Foi utilizado como referência alguns sites e vídeos: 
+ - O vídeo da DevMedia falando sobre Map e Reduce (https://www.youtube.com/watch?v=zTZNpBP-OJI).
+ - A documentação oficial do JavaScript (https://developer.mozilla.org/pt-BR/).
+ - E o curso de React da RocketSeat na qual sou aluna (https://skylab.rocketseat.com.br/dashboard).
+
+ ## Comandos para rodar o projeto
+
+ - Para rodar o projeto basta navegar até a pasta challenge dentro do terminal, e rodar o comando npm start ou yarn start.
+
+ ## Espero que gostem do meu desafio! 😁💻

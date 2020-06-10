@@ -1,0 +1,24 @@
+{   
+    "data":[
+        { 
+            "title": "Home",
+            "link": "/home"
+        },
+        { 
+            "title": "About",
+            "link": "/about"
+        },
+        { 
+            "title": "Cases",
+            "link": "/cases"
+        },
+        { 
+            "title": "Insights",
+            "link": "/insights"
+        },
+        { 
+            "title": "Contact",
+            "link": "/contact"
+        }
+    ]
+}

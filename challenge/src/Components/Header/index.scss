@@ -1,0 +1,124 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+
+  box-shadow: 2px 7px 5px -4px rgba(240,240,240,1);
+  -moz-box-shadow: 2px 7px 5px -4px rgba(240,240,240,1);
+  -webkit-box-shadow: 2px 7px 5px -4px rgba(240,240,240,1);
+
+  ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    
+    @media (max-width: 768px) {
+      margin-top: 20px;
+      justify-content: center;
+    }
+    
+    li {
+      margin-right: 30px;
+
+      a {
+        text-decoration: none;
+        color: #616161;
+      }
+    }
+  }
+}
+
+.mask{
+  width: 100%;
+  height: 80vh;
+  background: transparent;
+}
+
+.checkout {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+
+  &__total-area {
+    padding: 20px;
+  }
+
+  strong {
+    margin-left: 5px;
+  }
+
+  button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 100%;
+    background: #00bc0e;
+    border: 0;
+    color: #fff;
+    padding: 20px;
+  }
+}
+
+.dropdown {
+  max-width: 80%;
+  right: 22%;
+  display: block;
+  position: absolute;
+  background: #e6e6e6;
+
+  &::after {
+    content: '';
+    top: -3%;
+    right: 10%;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #e6e6e6;
+  }
+  
+  &__scroll {
+    overflow-y: scroll;
+    max-height: 35vh;
+  }
+
+  &__item {
+    display: flex;
+    padding: 15px;
+    background: #f0f0f0;
+    border-bottom: 1px solid #acaaaa;
+    font-family: 'Montserrat', sans-serif;
+
+    p {
+      width: 200px;
+      color: #000;
+      font-size: 14px;
+    }
+
+    strong {
+      color: #40c54a; 
+      font-size: 12px;
+      margin-left: 15px;
+    }
+
+    span {
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+  
+  img {
+    width: 80px;
+    margin-right: 15px;
+  }
+}
