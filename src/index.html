@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Challenge Front</title>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -22,9 +22,29 @@
                 </ul>
             </nav>
             <div id="header-btns">
-                <img class="icon-search" src="images/icons/search.svg" alt="Procurar">
-                <img class="icon-profile" src="images/icons/person.svg" alt="Perfil">
-                <img class="icon-cart" src="images/icons/cart.svg" alt="Carrinho">
+                <img class="icon-search btn" src="images/icons/search.svg" alt="Procurar">
+                <img class="icon-profile btn" src="images/icons/person.svg" alt="Perfil">
+                <img id="cart" class="icon-cart btn" src="images/icons/cart.svg" alt="Carrinho">
+                <div id="cart-content" class="cart-content">
+                    <div class="cart-products">
+
+                        <div class="product">
+                            <img class="product-img" src="images/products/impressora-canon-160-160.jpg" alt="">
+                            <div class="product-info">
+                                <div class="product-name">Impressora Multifuncional Canon Tanque de Tinta com USB e Wi-Fi - G3111 - N52315C021PTO_PRD</div>
+                                <div class="product-status">
+                                    <div class="product-qtd">Qtd.: 3</div>
+                                    <div class="product-price">R$ 7.158,21</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hr-line"></div>
+
+                        
+                    </div>
+                    <div class="cart-sum"><span class="label">Total do pedido: </span><span class="value">R$ 20.300,00</span></div>
+                    <div class="cart-buy-btn">FINALIZAR COMPRA</div>
+                </div>
             </div>
         </header>
     </div>
