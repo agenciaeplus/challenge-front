@@ -1,0 +1,24 @@
+{
+  "name": "challenge-front",
+  "version": "1.0.0",
+  "description": "![Eplus](https://www.agenciaeplus.com.br/wp-content/themes/eplus/images/agencia-eplus-n-logo.png)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/gulp-cli/bin/gulp.js",
+    "start": "./node_modules/gulp-cli/bin/gulp.js build && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlanVncs/challenge-front.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlanVncs/challenge-front/issues"
+  },
+  "homepage": "https://github.com/AlanVncs/challenge-front#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0"
+  }
+}
