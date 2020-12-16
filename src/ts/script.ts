@@ -6,5 +6,5 @@
         }
     });
     
-    console.log(data);
+    document.getElementById("content").innerText = JSON.stringify(await data.json(), null, 2);
 })();
