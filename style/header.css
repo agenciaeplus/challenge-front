@@ -1,0 +1,75 @@
+header{
+    width: 67.7%;
+    padding: 15px 0px;
+    margin: 0 10px;
+
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    width: 259px;
+}
+
+header .items{
+    width: 610px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilo do menu superior */
+
+.items a{
+    font-size: 1.6rem;
+    color: var(--gray-color);
+
+    transition: .6s;
+}
+
+.items a:hover{
+    color: var(--dark-color);
+}
+
+/* Estilo dos ícones (lado direito) */
+
+header .icons{
+    width: 240px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons i{
+    font-size: 2.2rem;
+    color: var(--dark-color);
+
+    cursor: pointer;
+}
+
+/* Animação dos ícones */
+
+.icons i:hover{
+    animation: shake .6s ease;
+}
+
+@keyframes shake {
+    10%{
+        transform: rotate(8deg);
+    }
+    30%{
+        transform: rotate(12deg);
+    }
+    50%{
+        transform: rotate(-8deg);
+    }
+    75%{
+        transform: rotate(8deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }    
+  }

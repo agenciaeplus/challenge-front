@@ -10,8 +10,8 @@ Lista de tarefas:
  - [x] Pegar medidas do carrinho
  - [x] Alterar pastas dos arquivos e inserir padrões (html, css e js)
  - [x] Iniciar o Readme
- - [ ] Escrever html do header
- - [ ] Estilizar o header
+ - [x] Escrever html do header
+ - [x] Estilizar o header
  - [ ] Escrever html do carrinho
  - [ ] Estilizar o carrinho
  - [ ] Tornar tudo responsivo
