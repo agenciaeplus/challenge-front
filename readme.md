@@ -12,9 +12,10 @@ Lista de tarefas:
  - [x] Iniciar o Readme
  - [x] Escrever html do header
  - [x] Estilizar o header
- - [ ] Escrever html do carrinho
- - [ ] Estilizar o carrinho
- - [ ] Tornar tudo responsivo
+ - [x] Escrever html do carrinho
+ - [x] Estilizar o carrinho
+ - [x] Header Responsivo
+ - [x] Carrinho responsivo
  - [ ] Adicionar funcionalidades
  - [ ] Finalizar o Readme (explicar como executar o projeto)
  - [ ] Entregar o projeto

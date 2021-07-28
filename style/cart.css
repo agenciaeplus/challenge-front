@@ -8,10 +8,10 @@
     align-items: center;
 
     position: absolute;
-    right: 0;
+    right: 10px;
     top: 80px;
 
-    visibility: hidden;
+     /* visibility: hidden;  */
 }
 
 .square{
@@ -37,7 +37,7 @@
 }
 
 .product-container img{
-    width: 83px;
+    width: 70px;
     margin: 10px 0;
     margin-left: 10px;
 }
@@ -74,6 +74,14 @@
     color: var(--green-color);
 }
 
+.product-container .delete{
+    color: var(--gray-color);
+    font-size: 1.8rem;
+    margin-right: 13px;
+
+    cursor: pointer;
+}
+
 .cart .total{
     font-size: 1.6rem;
     padding: 20px 15px;
@@ -97,4 +105,53 @@
 
 .cart button:hover{
     background: #00660c;
+}
+
+/* Layout responsivo para telas pequenas e pequenos tablets */
+
+@media screen and (max-width: 322px){
+    .cart{
+        width: 100%;
+        right: 0;
+        top: 33%;
+    }
+
+    .cart .square{
+        visibility: hidden;
+    }
+}
+
+@media screen and (min-width: 323px) and (max-width: 531px){
+    .cart{
+        width: 100%;
+        right: 0;
+        top: 29%;
+    }
+    .cart .square{
+        visibility: hidden;
+    }
+}
+
+@media screen and (min-width: 532px) and (max-width: 540px){
+    .cart{
+        width: 100%;
+        right: 0;
+        top: 25%;
+    }
+    .cart .square{
+        visibility: hidden;
+    }
+}
+
+/* Para tablets */
+
+@media screen and (min-width: 541px) and (max-width: 768px){
+    .cart{
+        width: 100%;
+        right: 0;
+        top: 92%;
+    }
+    .cart .square{
+        visibility: hidden;
+    }
 }

@@ -1,7 +1,6 @@
 header{
     width: 100%;
     padding: 15px 0px;
-    margin: 0 10px;
 
     
     display: flex;
@@ -15,7 +14,7 @@ header .logo{
 }
 
 header .items{
-    width: 610px;
+    width: 49%; /* 610px */
 
     display: flex;
     justify-content: space-between;
@@ -56,6 +55,10 @@ header .icons{
     animation: shake .6s ease;
 }
 
+.icons .fa-shopping-cart{
+    position: relative;
+}
+
 @keyframes shake {
     10%{
         transform: rotate(8deg);
@@ -72,4 +75,59 @@ header .icons{
     100%{
         transform: rotate(0deg);
     }    
-  }
+}
+
+
+/* Layout responsivo a partir daqui */
+
+/* Para telas até 540px (pequenos tablets) */
+
+@media screen and (max-width: 768px){
+    .container{
+        width: 100%;
+    }
+
+    header{        
+        flex-direction: column;
+    }
+
+    header .items{
+        background: var(--light-gray-color);
+        width: 100%;
+        padding: 10px 5px;
+        margin: 15px 0;
+
+        flex-basis: 33%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .items a{
+        font-size: 1.2rem;
+        padding: 5px 12px;
+    }
+
+    header .icons{
+        width: 100%;
+        justify-content: space-evenly;
+
+        border-bottom: 1px solid var(--light-gray-color);
+        padding-bottom: 20px;
+    }
+
+    .icons i{
+        font-size: 1.6rem;
+    }
+}
+
+/* Para telas médias (tablets e monitores HD) */
+
+@media screen and (min-width: 769px) and (max-width: 1280px){
+    .items a{
+        font-size: 1.4rem;
+    }
+    header .items{
+        width: 50%;
+        margin-left: 20px;
+    }
+}

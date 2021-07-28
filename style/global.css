@@ -27,9 +27,25 @@ body{
     align-items: center;    
 }
 
-.container{
-    width: 67.7%;
+/* Para telas a partir de 541px (tablets) */
 
-    position: relative;
+@media screen and (min-width: 541px){
+    .container{
+        width: 95%;
+        position: relative;
+    }
 }
 
+/* Para telas com proporção 16:9 */
+
+@media screen and (min-width: 1600px) {
+    .container{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .container{
+        width: 67.7%;
+    }
+}
