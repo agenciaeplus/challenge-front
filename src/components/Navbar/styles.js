@@ -20,10 +20,11 @@ const Container = styled.nav`
 
     margin-left: 0.5rem;
     @media (min-width: 300px) {
-      margin-left: 1.5rem;
+      margin-left: 1rem;
     }
 
     @media (min-width: 500px) {
+      margin-left: 1.5rem;
       width: 10rem;
     }
     @media (min-width: 700px) {

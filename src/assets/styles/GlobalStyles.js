@@ -10,7 +10,9 @@ const GlobalStyles = createGlobalStyle`
 	#root{
 		min-height: 100vh;
 		min-width: 100vw;
-		background-color: #FFF; /* it only during development */
+		background-color: #fff; /* it only during development */
+
+		font-family: 'Montserrat', sans-serif;
 	}
   
   /* http://meyerweb.com/eric/tools/css/reset/ 

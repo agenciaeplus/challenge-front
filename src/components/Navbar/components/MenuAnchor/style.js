@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.ul`
-  font-size: 1.4rem;
+  font-size: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,6 +10,7 @@ export const Wrapper = styled.ul`
   background-color: var(--white);
 
   li {
+    padding: 0.7rem;
     margin: 0.6rem 0;
 
     @media (min-width: 900px) {
@@ -18,13 +19,12 @@ export const Wrapper = styled.ul`
     }
     @media (min-width: 1100px) {
       padding: 0 0.9rem;
-      font-size: 1.1rem;
+      font-size: 0.9rem;
     }
   }
 
   @media (min-width: 900px) {
-    font-size: 1rem;
-
+    padding: 0;
     flex-direction: row;
   }
 `;
