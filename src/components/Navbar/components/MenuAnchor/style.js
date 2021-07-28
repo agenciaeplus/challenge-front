@@ -11,6 +11,21 @@ export const Wrapper = styled.ul`
 
   li {
     margin: 0.6rem 0;
+
+    @media (min-width: 900px) {
+      min-width: max-content;
+      padding: 0 0.3rem;
+    }
+    @media (min-width: 1100px) {
+      padding: 0 0.9rem;
+      font-size: 1.1rem;
+    }
+  }
+
+  @media (min-width: 900px) {
+    font-size: 1rem;
+
+    flex-direction: row;
   }
 `;
 export const ProfileLi = styled.li`
@@ -24,5 +39,9 @@ export const ProfileLi = styled.li`
 
   @media (min-width: 600px) {
     display: none;
+  }
+
+  @media (min-width: 900px) {
+    margin: 0 auto;
   }
 `;

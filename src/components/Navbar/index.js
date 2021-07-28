@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Container, FlexWrapper } from './styles';
+import { Container, FlexWrapper, WrapperMenuAnchor } from './styles';
 import MenuAnchor from './components/MenuAnchor';
 import ActionMenu from './components/ActionMenu';
 
@@ -15,6 +15,9 @@ function Navbar() {
     <>
       <Container>
         <img id="logo" src={Logo} alt="Logo" />
+        <WrapperMenuAnchor>
+          <MenuAnchor />
+        </WrapperMenuAnchor>
         <FlexWrapper>
           <ActionMenu />
           <img id="menu" src={Menu} alt="Menu" onClick={() => isMenuOpen()} />
