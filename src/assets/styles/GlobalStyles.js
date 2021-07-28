@@ -7,6 +7,11 @@ const GlobalStyles = createGlobalStyle`
     --green: #00BC0E;
     --gray: #F0F0F0;
   }
+	#root{
+		min-height: 100vh;
+		min-width: 100vw;
+		background-color: #c3c3c3; /* it only during development */
+	}
   
   /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
