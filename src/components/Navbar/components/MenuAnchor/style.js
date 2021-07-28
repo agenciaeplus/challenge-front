@@ -9,6 +9,17 @@ export const Wrapper = styled.ul`
 
   background-color: var(--white);
 
+  animation: smoothAppear 0.3s forwards ease-out;
+
+  @keyframes smoothAppear {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
   li {
     padding: 0.7rem;
     margin: 0.6rem 0;
