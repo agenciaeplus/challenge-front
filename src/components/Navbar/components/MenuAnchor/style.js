@@ -5,7 +5,7 @@ export const Wrapper = styled.ul`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1rem 0;
+  padding: 0.3rem 0 1rem;
 
   background-color: var(--white);
 
