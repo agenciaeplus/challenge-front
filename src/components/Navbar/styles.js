@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Container = styled.nav`
+const Container = styled.nav`
   height: 2.5rem;
   padding: 0.9rem 0;
 
@@ -16,7 +16,11 @@ export const Container = styled.nav`
 
   #logo {
     width: 7rem;
-    margin-left: 1.5rem;
+
+    margin-left: 0.5rem;
+    @media (min-width: 300px) {
+      margin-left: 1.5rem;
+    }
 
     @media (min-width: 500px) {
       width: 10rem;
@@ -32,7 +36,6 @@ export const Container = styled.nav`
   }
   #menu {
     height: 2rem;
-
     margin-right: 0.8rem;
 
     @media (min-width: 900px) {
@@ -41,20 +44,4 @@ export const Container = styled.nav`
   }
 `;
 
-export const FlexWrapper = styled.div`
-  display: flex;
-  align-items: center;
-
-  @media (min-width: 1000px) {
-    padding: 0 1rem;
-  }
-`;
-
-export const WrapperMenuAnchor = styled.div`
-  display: none;
-
-  @media (min-width: 900px) {
-    display: flex;
-    justify-content: center;
-  }
-`;
+export default Container;

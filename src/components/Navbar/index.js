@@ -1,7 +1,8 @@
 import { useState } from 'react';
-import { Container, FlexWrapper, WrapperMenuAnchor } from './styles';
+import Container from './styles';
 import MenuAnchor from './components/MenuAnchor';
 import ActionMenu from './components/ActionMenu';
+import { FlexWrapper, WrapperMenuAnchor } from './components/Wrappers';
 
 import Logo from '../../assets/images/logo/agencia-eplus-n-logo.png';
 import Menu from '../../assets/images/icons/menu-hamburguer.svg';
