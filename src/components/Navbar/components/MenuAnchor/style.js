@@ -27,7 +27,9 @@ export const Wrapper = styled.ul`
     @media (min-width: 900px) {
       min-width: max-content;
       padding: 0 0.3rem;
+      font-size: 0.8rem;
     }
+
     @media (min-width: 1100px) {
       padding: 0 0.9rem;
       font-size: 0.9rem;

@@ -29,8 +29,8 @@ export const WrapperMenu = styled.ul`
     }
   }
 
-  @media (min-width: 800px) and (max-width: 950px) {
-    padding: 0 1rem 0 0;
+  @media (min-width: 900px) {
+    padding: 0;
   }
 
   @media (min-width: 1200px) {
