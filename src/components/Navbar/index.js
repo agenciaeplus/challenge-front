@@ -3,14 +3,21 @@ import Container from './styles';
 import MenuAnchor from './components/MenuAnchor';
 import ActionMenu from './components/ActionMenu';
 import { FlexWrapper, WrapperMenuAnchor } from './components/Wrappers';
+import CartModal from '../CartModal';
 
 import Logo from '../../assets/images/logo/agencia-eplus-n-logo.png';
 import Menu from '../../assets/images/icons/menu-hamburguer.svg';
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [cartOpen, setCartOpen] = useState(false);
+
   function isMenuOpen() {
     setMenuOpen(!menuOpen);
+  }
+
+  function isCartOpen() {
+    setCartOpen(!cartOpen);
   }
   return (
     <>
@@ -20,10 +27,11 @@ function Navbar() {
           <MenuAnchor />
         </WrapperMenuAnchor>
         <FlexWrapper>
-          <ActionMenu />
+          <ActionMenu isCartOpen={isCartOpen} />
           <img id="menu" src={Menu} alt="Menu" onClick={() => isMenuOpen()} />
         </FlexWrapper>
       </Container>
+      {cartOpen && <CartModal />}
       {menuOpen && <MenuAnchor />}
     </>
   );
