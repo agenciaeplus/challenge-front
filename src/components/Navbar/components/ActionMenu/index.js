@@ -9,13 +9,13 @@ function ActionMenu() {
     <Container>
       <WrapperMenu>
         <li>
-          <img src={Search}></img>
+          <img src={Search} alt="procurar"></img>
         </li>
         <li id="profile">
-          <img src={Profile}></img>
+          <img src={Profile} alt="perfil"></img>
         </li>
         <li>
-          <img src={Cart}></img>
+          <img src={Cart} alt="Carrinho"></img>
         </li>
       </WrapperMenu>
     </Container>

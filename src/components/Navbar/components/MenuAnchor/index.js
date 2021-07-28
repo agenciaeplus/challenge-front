@@ -5,7 +5,7 @@ function MenuAnchor() {
   return (
     <Wrapper>
       <ProfileLi>
-        <img src={Profile} />
+        <img src={Profile} alt="perfil" />
         Perfil
       </ProfileLi>
       <li>Lorem Ipsum</li>
