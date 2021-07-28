@@ -12,6 +12,7 @@
     --light-color: #FFFFFF;
     --green-color: #00BB16;
     --gray-color: #565656;
+    --light-gray-color: #EBEBEB;
 }
 
 a, 
@@ -20,11 +21,15 @@ a:active{
     text-decoration: none;
 }
 
-.container{
-    width: 100%;
-
+body{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;    
+}
+
+.container{
+    width: 67.7%;
+
+    position: relative;
 }
 

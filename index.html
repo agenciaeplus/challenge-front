@@ -12,6 +12,7 @@
     <!-- Arquivos de estilo (CSS) -->
     <link rel="stylesheet" href="style/global.css">
     <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/cart.css">
 
     <!-- CDN para os ícones -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
@@ -20,7 +21,7 @@
     <!-- Fonte Montserrat -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
 
 </head>
 
@@ -46,7 +47,20 @@
         </header>
 
         <div class="cart">
+            <div class="square"></div>
 
+            <div class="product-container">
+                <img src="assets/images/products/impressora-canon-160-160.jpg" alt="impressora canon">
+                <div class="product-info">
+                    <p class="title">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <div class="amo-val">
+                        <p class="amount">Qtd.: $n</p>
+                        <p class="value">R$ $value</p>
+                    </div>
+                </div>
+            </div>
+            <p class="total">Total do pedido: <strong>R$ $totalToPay</strong></p>
+            <button type="button">Finalizar compra</button>
         </div>
     </div>
 
