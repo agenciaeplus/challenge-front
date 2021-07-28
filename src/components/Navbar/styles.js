@@ -9,6 +9,7 @@ const Container = styled.nav`
   align-items: center;
 
   background-color: var(--white);
+  box-shadow: 3px 3px 2px var(--gray);
 
   @media (min-width: 900px) {
     padding: 1.1rem 0;
