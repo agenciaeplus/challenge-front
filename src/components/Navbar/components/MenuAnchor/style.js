@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Wrapper = styled.ul`
+export const Wrapper = styled.ul`
   font-size: 1.4rem;
   display: flex;
   flex-direction: column;
@@ -13,4 +13,16 @@ const Wrapper = styled.ul`
     margin: 0.6rem 0;
   }
 `;
-export default Wrapper;
+export const ProfileLi = styled.li`
+  display: flex;
+  align-items: center;
+
+  img {
+    height: 1.6rem;
+    margin-right: 0.3rem;
+  }
+
+  @media (min-width: 600px) {
+    display: none;
+  }
+`;

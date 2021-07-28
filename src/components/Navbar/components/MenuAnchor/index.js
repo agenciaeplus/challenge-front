@@ -1,14 +1,21 @@
-import Wrapper from './style';
+import { Wrapper, ProfileLi } from './style';
+import Profile from '../../../../assets/images/icons/profile.svg';
 
 function MenuAnchor() {
   return (
-    <Wrapper>
-      <li>Lorem Ipsum</li>
-      <li>Lorem Ipsum</li>
-      <li>Lorem Ipsum</li>
-      <li>Lorem Ipsum</li>
-      <li>Lorem Ipsum</li>
-    </Wrapper>
+    <>
+      <Wrapper>
+        <ProfileLi>
+          <img src={Profile} />
+          Perfil
+        </ProfileLi>
+        <li>Lorem Ipsum</li>
+        <li>Lorem Ipsum</li>
+        <li>Lorem Ipsum</li>
+        <li>Lorem Ipsum</li>
+        <li>Lorem Ipsum</li>
+      </Wrapper>
+    </>
   );
 }
 
