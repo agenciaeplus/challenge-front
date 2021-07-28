@@ -4,10 +4,10 @@ import GlobalStyles from './assets/styles/GlobalStyles';
 
 function App() {
   return (
-    <div>
+    <main>
       <GlobalStyles />
       <Navbar />
-    </div>
+    </main>
   );
 }
 
