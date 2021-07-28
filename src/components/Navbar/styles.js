@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Container = styled.nav`
+export const Container = styled.nav`
   height: 2.5rem;
   padding: 0.9rem 0;
 
@@ -22,4 +22,7 @@ const Container = styled.nav`
   }
 `;
 
-export default Container;
+export const FlexWrapper = styled.div`
+  display: flex;
+  align-items: center;
+`;

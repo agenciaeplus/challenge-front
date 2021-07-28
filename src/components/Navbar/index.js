@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import Container from './styles';
+import { Container, FlexWrapper } from './styles';
 import MenuAnchor from './components/MenuAnchor';
+import ActionMenu from './components/ActionMenu';
 
 import Logo from '../../assets/images/logo/agencia-eplus-n-logo.png';
 import Menu from '../../assets/images/icons/menu-hamburguer.svg';
@@ -14,7 +15,10 @@ function Navbar() {
     <>
       <Container>
         <img id="logo" src={Logo} alt="Logo" />
-        <img id="menu" src={Menu} alt="Menu" onClick={() => isMenuOpen()} />
+        <FlexWrapper>
+          <ActionMenu />
+          <img id="menu" src={Menu} alt="Menu" onClick={() => isMenuOpen()} />
+        </FlexWrapper>
       </Container>
       {menuOpen && <MenuAnchor />}
     </>
