@@ -29,7 +29,7 @@ const Container = styled.nav`
     }
     @media (min-width: 700px) {
       width: 14.4rem;
-      margin-left: 1.5rem;
+      margin-left: 0.5rem;
     }
     @media (min-width: 1000px) {
       width: 16.4rem;
@@ -40,6 +40,9 @@ const Container = styled.nav`
     height: 2rem;
     margin-right: 0.8rem;
 
+    @media (min-width: 500px) {
+      height: 2.5rem;
+    }
     @media (min-width: 900px) {
       display: none;
     }

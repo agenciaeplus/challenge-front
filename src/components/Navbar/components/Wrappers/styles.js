@@ -5,7 +5,7 @@ export const FlexWrapperStyle = styled.div`
   align-items: center;
 
   @media (min-width: 1000px) {
-    padding: 0 1rem;
+    padding-left: 1rem;
   }
 `;
 
