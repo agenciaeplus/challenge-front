@@ -4,6 +4,7 @@ import MenuAnchor from './components/MenuAnchor';
 import ActionMenu from './components/ActionMenu';
 import { FlexWrapper, WrapperMenuAnchor } from './components/Wrappers';
 import CartModal from '../CartModal';
+import Product from '../Product';
 
 import Logo from '../../assets/images/logo/agencia-eplus-n-logo.png';
 import Menu from '../../assets/images/icons/menu-hamburguer.svg';
@@ -31,7 +32,14 @@ function Navbar() {
           <img id="menu" src={Menu} alt="Menu" onClick={() => isMenuOpen()} />
         </FlexWrapper>
       </Container>
-      {cartOpen && <CartModal />}
+      {cartOpen && (
+        <CartModal>
+          <Product />
+          <Product />
+          <Product />
+          <Product />
+        </CartModal>
+      )}
       {menuOpen && <MenuAnchor />}
     </>
   );
