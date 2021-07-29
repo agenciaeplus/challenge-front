@@ -9,7 +9,7 @@ export function Provider({ children }) {
 
   function getTotal(arr) {
     return arr.reduce((acum, element) => {
-      return (acum += element.bestPrice);
+      return (acum += element.quantity * element.bestPrice);
     }, 0);
   }
 
