@@ -6,6 +6,7 @@ const GlobalStyles = createGlobalStyle`
     --black: #000000;
     --green: #00BC0E;
     --gray: #F0F0F0;
+		--gray-title: #555555;
   }
 	#root{
 		min-height: 100vh;
