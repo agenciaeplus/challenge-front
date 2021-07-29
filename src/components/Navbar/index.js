@@ -4,19 +4,21 @@ import MenuAnchor from './components/MenuAnchor';
 import ActionMenu from './components/ActionMenu';
 import { FlexWrapper, WrapperMenuAnchor } from './components/Wrappers';
 import CartModal from '../CartModal';
-import Product from '../Product';
+import { useContext } from 'react';
+import { Context } from '../../context';
 
+import Product from '../Product';
 import Logo from '../../assets/images/logo/agencia-eplus-n-logo.png';
 import Menu from '../../assets/images/icons/menu-hamburguer.svg';
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [cartOpen, setCartOpen] = useState(false);
+  const { products } = useContext(Context);
 
   function isMenuOpen() {
     setMenuOpen(!menuOpen);
   }
-
   function isCartOpen() {
     setCartOpen(!cartOpen);
   }
@@ -34,10 +36,17 @@ function Navbar() {
       </Container>
       {cartOpen && (
         <CartModal>
-          <Product />
-          <Product />
-          <Product />
-          <Product />
+          {products.cart.item.map((element) => {
+            return (
+              <Product
+                img={element.image}
+                name={element.name}
+                price={element.bestPriceFormated}
+                qtt={element.quantity}
+                key={element.id || new Date().toISOString() + Math.random()}
+              />
+            );
+          })}
         </CartModal>
       )}
       {menuOpen && <MenuAnchor />}

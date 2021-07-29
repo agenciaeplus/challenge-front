@@ -7,7 +7,7 @@
                 "salesChannel": "1",
                 "available": true,
                 "bestPriceFormated": "R$ 7.158,21",
-                "bestPrice": 715821,
+                "bestPrice": 7158.21,
                 "quantity": 1,
                 "image": "images/products/note01-samsung-160-160.jpg"
             },
@@ -17,7 +17,7 @@
                 "salesChannel": "1",
                 "available": true,
                 "bestPriceFormated": "R$ 4.699,00",
-                "bestPrice": 469900,
+                "bestPrice": 4699.00,
                 "quantity": 1,
                 "image": "images/products/note-gamer-acer-160-160.jpg"
             },
@@ -27,7 +27,7 @@
                 "salesChannel": "1",
                 "available": true,
                 "bestPriceFormated": "R$ 725,80",
-                "bestPrice": 72580,
+                "bestPrice": 725.80,
                 "quantity": 2,
                 "image": "images/products/impressora-canon-160-160.jpg"
             },
@@ -37,7 +37,7 @@
                 "salesChannel": "1",
                 "available": true,
                 "bestPriceFormated": "R$ 7.066,42",
-                "bestPrice": 706642,
+                "bestPrice": 7066.42,
                 "quantity": 1,
                 "image": "images/products/note02-samsung-160-160.jpg"
             }
