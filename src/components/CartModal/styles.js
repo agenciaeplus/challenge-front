@@ -129,6 +129,11 @@ export const Button = styled.button`
   border: none;
   background-color: var(--green);
   color: var(--white);
+  cursor: pointer;
+
+  :hover {
+    background-color: #00d610;
+  }
 
   @media (min-width: 500px) {
     height: 2.8rem;

@@ -14,6 +14,7 @@ const Container = styled.div`
   padding: 0.5rem 0;
 
   border-bottom: solid 1px #e7e7e7;
+  cursor: pointer;
 
   img {
     grid-area: side;

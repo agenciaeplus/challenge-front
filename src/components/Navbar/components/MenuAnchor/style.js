@@ -24,6 +24,12 @@ export const Wrapper = styled.ul`
     padding: 0.7rem;
     margin: 0.6rem 0;
 
+    cursor: pointer;
+
+    :hover {
+      color: var(--green);
+    }
+
     @media (min-width: 900px) {
       min-width: max-content;
       padding: 0 0.3rem;

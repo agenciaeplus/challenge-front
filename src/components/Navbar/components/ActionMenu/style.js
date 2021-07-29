@@ -14,6 +14,8 @@ export const WrapperMenu = styled.ul`
   li {
     margin: 0 0.7rem;
 
+    cursor: pointer;
+
     img {
       height: 1.6rem;
     }
