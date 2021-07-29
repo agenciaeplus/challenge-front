@@ -17,6 +17,8 @@
 #### -° React
 #### -° Styled Components
 
+---
+
 ## Como rodar
 
 ---
