@@ -23,4 +23,4 @@
 
 ---
 
-Clonar o repositório na sua máquina, abrir o prompt de sua prefência na página do projeto e usar o comando `yarn install` para instalar as depências. <br/> Após isso, usar o comando `yarn start` e ir até o a url mostrada no prompt, ou digitar no navegador "localhost:3000".
+Clonar o repositório na sua máquina, abrir o prompt de sua preferência na página do projeto e usar o comando `yarn install` para instalar as depências. <br/> Após isso, usar o comando `yarn start` e ir até o a url mostrada no prompt, ou digitar no navegador "localhost:3000".
