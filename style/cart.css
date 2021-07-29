@@ -1,4 +1,4 @@
-.cart{
+#cart{
     width: 320px;
     max-height: 460px;
     background: var(--light-gray-color);
@@ -11,7 +11,7 @@
     right: 10px;
     top: 80px;
 
-     /* visibility: hidden;  */
+    display: visible;
 }
 
 .square{
@@ -25,6 +25,12 @@
     right: 13px;
 
     z-index: -10;
+}
+
+#products{
+    max-height: 260px;
+    overflow-y: auto;
+
 }
 
 .product-container{        
@@ -54,7 +60,7 @@
 
 }
 
-.product-container .title{
+.product-container #title{
     color: var(--gray-color);
     font-size: 1.4rem;
     font-weight: 600;
@@ -63,18 +69,19 @@
     overflow: hidden;
 }
 
-.product-container .amount{
+.product-container #amount,
+.amo-val>p{
     font-size: 1.4rem;
     font-weight: 700;
 }
 
-.product-container .value{
+.product-container #value{
     font-size: 1.4rem;
     font-weight: 700;
     color: var(--green-color);
 }
 
-.product-container .delete{
+.product-container .delete-item{
     color: var(--gray-color);
     font-size: 1.8rem;
     margin-right: 13px;
@@ -82,12 +89,12 @@
     cursor: pointer;
 }
 
-.cart .total{
+#cart .total{
     font-size: 1.6rem;
     padding: 20px 15px;
 }
 
-.cart button{
+#cart button{
     width: 100%;
     font-size: 1.6rem;
     font-weight: 700;
@@ -103,42 +110,58 @@
     cursor: pointer;
 }
 
-.cart button:hover{
+#cart button:hover{
     background: #00660c;
+}
+
+.add-item{
+    width: fit-content;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    padding: 15px;
+
+    color: var(--light-color);
+    background: var(--green-color);
+    border: none;
+    
+    position: absolute;
+    bottom: 0;
 }
 
 /* Layout responsivo para telas pequenas e pequenos tablets */
 
 @media screen and (max-width: 322px){
-    .cart{
+    #cart{
         width: 100%;
         right: 0;
-        top: 33%;
+        top: 29%;
     }
 
-    .cart .square{
+    #cart .square{
         visibility: hidden;
     }
 }
 
 @media screen and (min-width: 323px) and (max-width: 531px){
-    .cart{
+    #cart{
         width: 100%;
         right: 0;
-        top: 29%;
+        top: 26%;
     }
-    .cart .square{
+    #cart .square{
         visibility: hidden;
     }
 }
 
 @media screen and (min-width: 532px) and (max-width: 540px){
-    .cart{
+    #cart{
         width: 100%;
         right: 0;
-        top: 25%;
+        top: 22%;
     }
-    .cart .square{
+    #cart .square{
         visibility: hidden;
     }
 }
@@ -146,12 +169,12 @@
 /* Para tablets */
 
 @media screen and (min-width: 541px) and (max-width: 768px){
-    .cart{
+    #cart{
         width: 100%;
         right: 0;
         top: 92%;
     }
-    .cart .square{
+    #cart .square{
         visibility: hidden;
     }
 }

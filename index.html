@@ -7,7 +7,7 @@
 
     <!-- Título e favicon -->
     <title>Agência e-Plus</title>
-    <link rel="icon" href="assets/images/logo/favicon.png">
+    <link rel="icon" href="images/logo/favicon.png">
 
     <!-- Arquivos de estilo (CSS) -->
     <link rel="stylesheet" href="style/global.css">
@@ -29,7 +29,7 @@
     <!-- Tamanho do container (web): 1300px. Para mobile calcular margem (33px d/e) -->
     <div class="container">
         <header>
-            <img src="assets/images/logo/agencia-eplus-n-logo.png" alt="Agência ePlus" class="logo">
+            <img src="images/logo/agencia-eplus-n-logo.png" alt="Agência ePlus" class="logo">
 
             <nav class="items">
                 <a href="#">Lorem ipsum</a>
@@ -42,32 +42,41 @@
             <nav class="icons">
                 <i class="fas fa-search"></i>
                 <i class="fas fa-user"></i>
-                <i class="fas fa-shopping-cart"></i>
+                <i onclick="popCart()" class="fas fa-shopping-cart"></i>
             </nav>
         </header>
 
-        <div class="cart">
+        <div id="cart">
             <div class="square"></div>
-
-            <div class="product-container">
-                <img src="assets/images/products/impressora-canon-160-160.jpg" alt="impressora canon">
+            <div id="products"></div>
+            <!-- <div class="product-container">
+                <img id="product-image" src="" alt="produto">
                 <div class="product-info">
-                    <p class="title">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <p id="title">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                     <div class="amo-val">
-                        <p class="amount">Qtd.: $n</p>
-                        <p class="value">R$ $value</p>
+                        <p>Qtd.: <p id="amount">$n</p></p>
+                        <p id="value">R$ $value</p>
                     </div>
                 </div>
-                <i class="fas fa-times-circle delete"></i>
-            </div>
-            <p class="total">Total do pedido: <strong>R$ $totalToPay</strong></p>
+                <i class="fas fa-times-circle delete-item"></i>
+            </div> -->
+            <p class="total">Total do pedido: <strong id="total-to-pay">R$</strong></p>
             <button type="button">Finalizar compra</button>
+
+            
         </div>
     </div>
 
+    <!-- Botão apenas para fins do teste: adicionar um item ao carrinho -->
 
+    <button class="add-item" onclick="newProduct()">Adicionar um item ao carrinho</button>
 
+    
+    
     <script src="js/script.js"></script>
+    <script src="js/request.js"></script>
+    <script src="js/render.js"></script>
+    
 </body>
 
 </html>

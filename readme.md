@@ -16,8 +16,13 @@ Lista de tarefas:
  - [x] Estilizar o carrinho
  - [x] Header Responsivo
  - [x] Carrinho responsivo
- - [ ] Adicionar funcionalidades
+ - [x] Request do arquivo Json
+ - [x] Render do carrinho
+ - [ ] Dados dinâmicos do JSON para o HTML
+ - [x] Criar e deletar itens no carrinho
+ - [ ] Finalizar compra
  - [ ] Finalizar o Readme (explicar como executar o projeto)
  - [ ] Entregar o projeto
 
-> O projeto foi iniciado hoje, 27/07 às 18:00.
+> Projeto foi iniciado hoje, 27/07 às 18:00.
+> Projeto finalizado hoje, 28/07 às 21:45
