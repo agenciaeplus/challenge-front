@@ -51,6 +51,14 @@ export const Container = styled.section`
       justify-content: flex-end;
     }
   }
+  #wrapperProducts {
+    padding: 0.7rem 0.5rem 0;
+
+    overflow-y: scroll;
+    @media (min-width: 900px) {
+      padding: 0.7rem 0.8rem 0;
+    }
+  }
 `;
 
 export const Triangle = styled.div`
@@ -80,6 +88,25 @@ export const Triangle = styled.div`
   }
 `;
 
+export const DescPrice = styled.p`
+  font-size: 0.7rem;
+  padding: 1rem 0;
+  text-align: center;
+
+  color: var(--gray-title);
+
+  span {
+    font-weight: bold;
+  }
+
+  @media (min-width: 500px) {
+    font-size: 0.9rem;
+  }
+  @media (min-width: 900px) {
+    font-size: 1rem;
+  }
+`;
+
 export const Button = styled.button`
   width: 100%;
   height: 2.25rem;
@@ -92,27 +119,12 @@ export const Button = styled.button`
 
   @media (min-width: 500px) {
     height: 2.8rem;
+    font-size: 0.9rem;
   }
 
   @media (min-width: 900px) {
     height: 3.5rem;
 
-    font-size: 1rem;
-  }
-`;
-
-export const DescPrice = styled.p`
-  font-size: 0.7rem;
-  padding: 1rem 0;
-  text-align: center;
-
-  color: var(--gray-title);
-
-  span {
-    font-weight: bold;
-  }
-
-  @media (min-width: 900px) {
     font-size: 1rem;
   }
 `;

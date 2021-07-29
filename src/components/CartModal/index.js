@@ -6,7 +6,7 @@ function CartModal({ children }) {
       <div id="wrapperTriangle">
         <Triangle />
       </div>
-      {children}
+      <div id="wrapperProducts">{children}</div>
       <div>
         <DescPrice>
           Total do pedido: <span>R$ 100.000,00</span>
