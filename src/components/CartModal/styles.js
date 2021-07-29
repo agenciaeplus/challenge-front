@@ -54,6 +54,19 @@ export const Container = styled.section`
   #wrapperProducts {
     padding: 0.7rem 0.5rem 0;
 
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+      margin-top: 1rem;
+      background: #dddddd;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background-color: #717171;
+    }
+
     overflow-y: scroll;
     @media (min-width: 900px) {
       padding: 0.7rem 0.8rem 0;
