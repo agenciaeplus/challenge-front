@@ -6,8 +6,6 @@
 
 ---
 
----
-
 -Yarn ou npm
 
 ---
@@ -15,8 +13,6 @@
 ---
 
 ## 👨🏽‍💻 Tecnologias utilizadas
-
----
 
 ---
 
@@ -30,8 +26,6 @@
 
 ---
 
----
-
 Clonar o repositório na sua máquina, abrir o prompt de sua preferência na pasta do projeto e usar o comando `yarn install` para instalar as depências. <br/> Após isso, usar o comando `yarn start` e ir até o a url mostrada no prompt, ou digitar no navegador "localhost:3000".
 
 ---
@@ -42,7 +36,6 @@ Clonar o repositório na sua máquina, abrir o prompt de sua preferência na pas
 
 ---
 
----
 
 👾 Ao olhar o desafio, entendi que não necessitaria de bibliotecas adicionais para criar as funcionalidades propostas. Disso, utilizei apenas o `Styled Components` para a estilização dos componentes.
 
@@ -56,9 +49,7 @@ Clonar o repositório na sua máquina, abrir o prompt de sua preferência na pas
 
 ---
 
-## Página da resolução 🌍
-
----
+## 🌍 Página da resolução 
 
 ---
 
