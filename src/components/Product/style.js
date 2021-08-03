@@ -41,11 +41,12 @@ const Container = styled.div`
     justify-content: space-between;
     grid-area: info;
     margin-top: 0.2rem;
+    min-width: max-content;
 
     span {
       font-weight: 600;
 
-      margin-right: 0.8rem;
+      margin-right: 0.2rem;
 
       color: var(--green);
     }
