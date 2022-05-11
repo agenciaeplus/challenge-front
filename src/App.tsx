@@ -1,7 +1,14 @@
-function App() {
+import './styles/global.scss'
+
+import { BrowserRouter } from 'react-router-dom';
+import { Home } from "./pages/Home";
+
+const App = (): JSX.Element => {
   return (
-    <h1>Hello World</h1>
+    <BrowserRouter>
+      <Home />
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
