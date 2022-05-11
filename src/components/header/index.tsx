@@ -7,25 +7,29 @@ import cartIMG from '../../assets/images/cart.svg';
 
 export function Header() {
   return (
-    <header className="container">
-      <div className="content">
-        <img src={logoIMG} alt="E Plus" />
+    <>
+      <header className="container">
+        <div className="content">
+          <img src={logoIMG} alt="E Plus" />
 
-        <nav>
-          <a href="#">Lorem ipsum</a>
-          <a href="#">Lorem ipsum</a>
-          <a href="#">Lorem ipsum</a>
-          <a href="#">Lorem ipsum</a>
-          <a href="#">Lorem ipsum</a>
-        </nav>
+          <nav>
+            <a href="#">Lorem ipsum</a>
+            <a href="#">Lorem ipsum</a>
+            <a href="#">Lorem ipsum</a>
+            <a href="#">Lorem ipsum</a>
+            <a href="#">Lorem ipsum</a>
+          </nav>
 
-        <div className="icons">
-          <img src={searchIMG} alt="Pesquisar" />
-          <img src={personIMG} alt="Perfil" />
-          <img src={cartIMG} alt="Carrinho de compras" />
+          <div className="icons">
+            <img src={searchIMG} alt="Pesquisar" />
+            <img src={personIMG} alt="Perfil" />
+            <img src={cartIMG} alt="Carrinho de compras" />
+          </div>
+
         </div>
+      </header>
 
-      </div>
-    </header>
+      <h1>Momento de Pausa</h1>
+    </>
   );
 }
