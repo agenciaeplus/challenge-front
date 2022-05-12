@@ -25,7 +25,7 @@ const Produtos = () => {
                 <div className={styles.info_preco}>
                   <p>Qtd.: {item.quantity}</p>
                   <span>
-                    {item.bestPrice.toLocaleString('pt-br', {
+                    {(item.quantity * item.bestPrice).toLocaleString('pt-br', {
                       style: 'currency',
                       currency: 'BRL',
                     })}
@@ -41,6 +41,7 @@ const Produtos = () => {
           Total do pedido: <span>R$ 20.356,95</span>
         </p>
       </div>
+
       <div className={styles.finish}>
         <p>Finalizar compra</p>
       </div>
