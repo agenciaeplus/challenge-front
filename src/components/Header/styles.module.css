@@ -55,6 +55,19 @@ img.icon {
   border: none;
 }
 
+button {
+  position: relative;
+}
+
+button.ativo:last-child::after {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  border-right: 1rem solid transparent;
+  border-bottom: 1rem solid #f0f0f0;
+  border-left: 1rem solid transparent;
+}
+
 /* Laptops */
 @media (max-width: 1024px) {
   .header {

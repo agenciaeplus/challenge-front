@@ -47,7 +47,10 @@ const Header = () => {
         <button>
           <img className={styles.icon} src={person} alt="Minha conta" />
         </button>
-        <button onClick={handleClick}>
+        <button
+          onClick={handleClick}
+          className={isOpen ? `${styles.ativo}` : ''}
+        >
           <img className={styles.icon} src={shopping} alt="Carrinho" />
         </button>
       </div>
