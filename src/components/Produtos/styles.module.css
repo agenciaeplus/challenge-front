@@ -53,10 +53,9 @@
 .info h1 {
   font-size: 0.875rem;
   font-weight: 500;
-  max-width: 30ch;
+  max-width: 25ch;
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: wrap;
 }
 
 .info_preco {
