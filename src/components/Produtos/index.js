@@ -3,12 +3,19 @@ import styles from './styles.module.css';
 
 const Produtos = () => {
   const [data, setData] = useState(null);
+  const [price, setPrice] = useState(0);
 
   useEffect(() => {
     async function getData() {
       const response = await fetch('./products.json');
       const json = await response.json();
       setData(json);
+
+      const price = json.cart.item.reduce(
+        (prev, json) => prev + json.quantity * json.bestPrice,
+        0,
+      );
+      setPrice(price);
     }
     getData();
   }, []);
@@ -38,7 +45,13 @@ const Produtos = () => {
 
       <div className={styles.total}>
         <p>
-          Total do pedido: <span>R$ 20.356,95</span>
+          Total do pedido:{' '}
+          <span>
+            {price.toLocaleString('pt-br', {
+              style: 'currency',
+              currency: 'BRL',
+            })}
+          </span>
         </p>
       </div>
 
