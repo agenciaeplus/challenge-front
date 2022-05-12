@@ -11,3 +11,14 @@ li {
 a {
   text-decoration: none;
 }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1366px;
+  margin: 0 auto;
+}
