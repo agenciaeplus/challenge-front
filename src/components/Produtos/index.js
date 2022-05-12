@@ -24,7 +24,12 @@ const Produtos = () => {
                 <h1>{item.name}</h1>
                 <div className={styles.info_preco}>
                   <p>Qtd.: {item.quantity}</p>
-                  <span>R$ {item.bestPrice}</span>
+                  <span>
+                    {item.bestPrice.toLocaleString('pt-br', {
+                      style: 'currency',
+                      currency: 'BRL',
+                    })}
+                  </span>
                 </div>
               </div>
             </div>
