@@ -18,7 +18,7 @@ O projeto <b>e-Plus</b> foi desenvolvido durante o desafio proposto para <b>vaga
 
 ## 🖥️ Demonstração
 
-![Bikcraft](https://img001.prntscr.com/file/img001/FJAWU3vMQyaeJes9-NSvBw.png)
+![Imagem](https://img001.prntscr.com/file/img001/FJAWU3vMQyaeJes9-NSvBw.png)
 
 ---
 
@@ -35,7 +35,7 @@ Você pode ver o layout desenvolvido pela **equipe da Agência e-Plus** clicando
 git clone https://github.com/luanargolodev/challenge-front.git
 
 # Entre no diretório
-cd bikcraft
+cd challenge-front
 
 # Execute o projeto
 npm start
