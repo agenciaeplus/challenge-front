@@ -1,38 +1,62 @@
-![Eplus](https://www.agenciaeplus.com.br/wp-content/themes/eplus/images/agencia-eplus-n-logo.png)
+<h1>E-Plus Frontend Challenge</h1>
 
-# E-Plus Frontend Challenge
+## 📖 Sobre
 
-Seja bem-vindo ao E-Plus Front-end Challenge, considere este o primeiro passo para fazer parte de uma das melhores equipes de ecommerce e marketing digital do Brasil!
+<p>
+O projeto <b>e-Plus</b> foi desenvolvido durante o desafio proposto para <b>vaga de Desenvolvedor Front-end Júnior</b> da empresa <b><a href="https://www.agenciaeplus.com.br/">Agência e-Plus</a></b>.
+</p>
 
-Para completar o desafio com sucesso você precisará codificar o layout que segue no projeto, para isso será necessário consumir um json via xhttp que retornará uma lista de produtos na resposta do request e servirá para alimentar/manipular o mini-cart.
+---
 
-Então mãos a obra e bom challenge ;)
+## 🚀 Tecnologias e ferramentas utilizadas
 
-## Design
+- **[JavaScript](https://www.javascript.com/)**
+- **[ReactJS](https://pt-br.reactjs.org/)**
+- **[Fetch](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch)**
 
-- O topo apresentado deve seguir o [seguinte design](https://projects.invisionapp.com/share/NARHXUS6HCF#/357617423_Eplus)
-- Baseado neste layout, faça uma adaptação responsiva para celulares.
+---
 
-## Como realizar o teste
+## 🖥️ Demonstração
 
-- Faça um fork deste repositório em seu GitHub
-- Adicione ao Readme uma descrição de como executar seu projeto
-- Descreva as funcionalidades do seu desafio, nos conte tudo que fez! Se fez o desafio utilizando pré-processadores, por exemplo, pois usaremos estas informações para avaliá-lo. 
-- O ideal é que este challenge leve até 8h.
-- Faça commits parciais, para que possamos acompanhar o seu desenvolvimento.
-- Em caso de dúvidas, entre em contato com nadia@agenciaeplus.com.br
+![Imagem](https://img001.prntscr.com/file/img001/FJAWU3vMQyaeJes9-NSvBw.png)
 
-## Dicas
+---
 
-- Os ícones usados, são todos do Material Design. https://material.io/icons/
-- A fonte utilizada é Montserrat (Está fonte se encontra no google fonts). 
-- Trabalhamos com clientes perfeccionistas, portanto tenha atenção com espaçamentos, tamanhos e estilos de fonte. 
+## 🔖 Layout
 
-## Critérios de avaliação
+Você pode ver o layout desenvolvido pela **equipe da Agência e-Plus** clicando **[aqui](https://projects.invisionapp.com/share/NARHXUS6HCF#/screens/357617423_Eplus)**.
 
-- Alcançar os objetivos propostos
-- Qualidade de código
-- Commits parciais, mostrando a linha de desenvolvimento
-- Boa descrição das funcionalidades do desafio
-- Fidelidade ao design proposto
-- Adaptação mobile
+---
+
+## 🔧 Como executar o projeto
+
+```bash
+# Clone o repositório
+git clone https://github.com/luanargolodev/challenge-front.git
+
+# Entre no diretório
+cd challenge-front
+
+# Execute o projeto
+npm start
+```
+
+---
+
+## 📝 Notas do desenvolvedor
+
+- Todo o projeto foi desenvolvido com ReactJS e CSS puro, com o auxílio do fetch do JavaScript para realizar a requisição à API disponibilizada pela empresa.
+
+- Para a tela principal se comunicar com o componente de Produtos, utilizei Context API do ReactJS.
+
+- Criei dois componentes com suas respectivas pastas, e estilizei-os com CSS modules para melhor organização e manutenção.
+
+- Em relação aos ícones, baixei o SVG no site da própria distribuidora e incluí-los.
+
+- Foi utilizado também as funções de toLocaleString e reduce do JavaScript para formatar o valor obtido através da API em Reais (BRL) e somar os valores do carrinho, de acordo com o valor unitário e a quantidade fornecida, respectivamente.
+
+No mais, agradeço pela oportunidade de estar realizando este teste.
+
+---
+
+**Desenvolvido com 💙 por [Luan Argolo](https://github.com/luanargolodev/).**

@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+.header {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.1);
+  padding: 0.875rem 2.5rem;
+}
+
+.items {
+  width: 100%;
+  margin: 0 4rem;
+}
+
+.image img {
+  width: 250px;
+}
+
+.items ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.items nav ul a {
+  color: #111;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.menu {
+  display: flex;
+  gap: 2rem;
+}
+
+.menu button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  background: transparent;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.menu button:hover {
+  background: #ccc;
+}
+
+img.icon {
+  width: 2rem;
+  height: 2rem;
+  border: none;
+}
+
+button {
+  position: relative;
+}
+
+button.ativo:last-child::after {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  border-right: 1rem solid transparent;
+  border-bottom: 1rem solid #f0f0f0;
+  border-left: 1rem solid transparent;
+}
+
+/* Laptops */
+@media (max-width: 980px) {
+  .header {
+    flex-direction: column;
+  }
+  .items ul li:hover {
+    background: #999;
+  }
+  .items ul {
+    padding-top: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+  }
+  .items ul li {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.4rem;
+    background: #ccc;
+    border-radius: 5px;
+  }
+}
+
+/* Smartphones */
+@media (max-width: 500px) {
+  .items ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .items ul li {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.4rem;
+    background: #ccc;
+    border-radius: 5px;
+  }
+}
