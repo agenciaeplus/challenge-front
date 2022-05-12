@@ -41,5 +41,76 @@
       height: 40px;
       width: 40px;
     }
+
+    .dropdown {
+      float: left;
+      overflow: hidden;
+      text-decoration: none;
+    }
+    
+    .dropdown .dropBtn {
+      border: none;
+      outline: none;
+      color: white;
+      background-color: inherit;
+      font-family: inherit;
+    }
+        
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      z-index: 1;
+      
+      overflow-y: scroll;
+      right: 1rem;
+    }
+    
+    .dropdown-content .items {
+      float: none;
+      color: black;
+      padding: 1rem 1rem;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .items-cart{
+      display: flex;
+      // align-items: center;
+      // justify-content: center;
+      // flex-direction: row;
+      
+      img{
+
+      }
+      
+      .text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        h4{
+          display: inline;
+          flex-wrap: wrap;
+  
+        }
+  
+        p{
+          display: inline;
+        }
+
+      }
+    }
+    
+    .dropdown-content .items:hover {
+      background-color: #ddd;
+      
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
   }
 }
