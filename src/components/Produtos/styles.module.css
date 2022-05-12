@@ -17,17 +17,15 @@
 
 .container {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   align-items: flex-end;
-  justify-content: center;
   height: 350px;
-  overflow-y: auto;
+  overflow-y: scroll;
   margin-right: 2rem;
 }
 
 .content {
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 1rem;
   width: 320px;
@@ -49,7 +47,7 @@
 }
 
 .info {
-  width: 150px;
+  width: 170px;
 }
 
 .info h1 {
@@ -76,4 +74,31 @@
   font-size: 0.875rem;
   color: #23c330;
   font-weight: bold;
+}
+
+.total,
+.finish {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  align-items: center;
+  width: 330px;
+  margin-right: 2rem;
+  padding: 1rem;
+  background: #e6e6e6;
+}
+
+.total {
+  background: #e6e6e6;
+}
+
+.total span {
+  font-weight: bold;
+}
+
+.finish {
+  background: #00bc0e;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
 }
