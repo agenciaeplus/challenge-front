@@ -8,7 +8,7 @@
 ### Iniciar o projeto:
 ### `yarn start`
 
-##Dependências
+## Dependências
 > SASS: Estilização do projeto
 > React-router-dom: Controlar as rotas e as páginas
 > AXIOS: Consumo de informações via API
