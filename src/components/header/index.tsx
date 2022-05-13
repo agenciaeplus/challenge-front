@@ -30,10 +30,10 @@ export function Header() {
   const saleTotal =
     formatPrice(
       items.reduce((sumTotal, items) => {
-        sumTotal.toLocaleString('pt-br', { minimumFractionDigits: 2 });
-        items.bestPrice.toLocaleString('pt-br', { minimumFractionDigits: 2 });
-        console.log("Sum total:" + sumTotal);
-        console.log("bestPrice:" + items.bestPrice);
+        // sumTotal.toLocaleString('pt-br', { minimumFractionDigits: 2 });
+        // items.bestPrice.toLocaleString('pt-br', { minimumFractionDigits: 2 });
+        // console.log("Sum total:" + sumTotal);
+        // console.log("bestPrice:" + items.bestPrice);
         return sumTotal + items.bestPrice * items.quantity;
 
       }, 0)
