@@ -30,11 +30,7 @@ export function Header() {
   const saleTotal =
     formatPrice(
       items.reduce((sumTotal, items) => {
-        // sumTotal.toLocaleString('pt-br', { minimumFractionDigits: 2 });
-        // items.bestPrice.toLocaleString('pt-br', { minimumFractionDigits: 2 });
-        // console.log("Sum total:" + sumTotal);
-        // console.log("bestPrice:" + items.bestPrice);
-        return sumTotal + items.bestPrice * items.quantity;
+        return sumTotal + (items.bestPrice / 100) * items.quantity;
 
       }, 0)
     )
@@ -57,12 +53,12 @@ export function Header() {
         </nav>
 
         <div className="icons">
-          <img src={searchIMG} alt="Pesquisar" />
-          <img src={personIMG} alt="Perfil" />
+          <img src={searchIMG} className="icon" alt="Pesquisar" />
+          <img src={personIMG} className="icon" alt="Perfil" />
 
           <div className="dropdown">
             <button className="dropBtn">
-              <img src={cartIMG} alt="Carrinho de compras" />
+              <img src={cartIMG} className="icon" alt="Carrinho de compras" />
             </button>
 
             <div className="dropdown-content">
