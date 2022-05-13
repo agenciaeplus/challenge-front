@@ -28,7 +28,6 @@ export function Header() {
           <div className="dropdown">
             <button className="dropBtn">
               <img src={cartIMG} alt="Carrinho de compras" />
-              {/* <i className="fa fa-caret-down"></i> */}
             </button>
 
             <div className="dropdown-content">
@@ -38,56 +37,17 @@ export function Header() {
                   <img className='image-cart' src={cartIMG} alt="Texto alternativo" />
 
                   <div className="text">
-                    <h4>Notebook Samsung e texto teste grgerfeththyj wgergrntynt</h4>
+                    <p>Notebook Samsung e texto teste grgerfeththyj wgergrntynt</p>
                     <span className='items-values'>
                       <a className='quantity'>Qtd: 1</a>
-                      <a className='price'>RS 7.158,21</a>
-                    </span>
-                  </div>
-                </div>
-
-                <div className="items-cart">
-
-                  <img className='image-cart' src={cartIMG} alt="Texto alternativo" />
-
-                  <div className="text">
-                    <h4>Notebook Samsung e texto teste grgerfeththyj wgergrntynt</h4>
-                    <span className='items-values'>
-                      <a className='quantity'>Qtd: 1</a>
-                      <a className='price'>RS 7.158,21</a>
-                    </span>
-                  </div>
-                </div>
-
-                <div className="items-cart">
-
-                  <img className='image-cart' src={cartIMG} alt="Texto alternativo" />
-
-                  <div className="text">
-                    <h4>Notebook Samsung e texto teste grgerfeththyj wgergrntynt</h4>
-                    <span className='items-values'>
-                      <a className='quantity'>Qtd: 1</a>
-                      <a className='price'>RS 7.158,21</a>
-                    </span>
-                  </div>
-                </div>
-
-                <div className="items-cart">
-
-                  <img className='image-cart' src={cartIMG} alt="Texto alternativo" />
-
-                  <div className="text">
-                    <h4>Notebook Samsung e texto teste grgerfeththyj wgergrntynt</h4>
-                    <span className='items-values'>
-                      <a className='quantity'>Qtd: 1</a>
-                      <a className='price'>RS 7.158,21</a>
+                      <a className='price'>R$7.158,21</a>
                     </span>
                   </div>
                 </div>
               </section>
 
               <span className='total-price'>
-                Total do Pedido: <strong>R$ 20.356,95</strong>
+                Total do Pedido: &nbsp; <strong>R$ 20.356,95</strong>
               </span>
 
               <button className='btn-finish'>FINALIZAR COMPRA</button>
