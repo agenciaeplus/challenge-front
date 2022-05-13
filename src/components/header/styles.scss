@@ -102,6 +102,10 @@
       gap: 0.3rem; 
       background: var(--grey--50);
       
+      &:first-child{
+        margin-top: 17rem;
+      }
+
       .image-cart{
         display: flex;
         margin: 1rem 1rem;
