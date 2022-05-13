@@ -5,6 +5,7 @@ import searchIMG from '../../assets/images/search.svg';
 import personIMG from '../../assets/images/person.svg';
 import cartIMG from '../../assets/images/cart.svg';
 
+
 export function Header() {
   return (
 
@@ -27,20 +28,69 @@ export function Header() {
           <div className="dropdown">
             <button className="dropBtn">
               <img src={cartIMG} alt="Carrinho de compras" />
-              <i className="fa fa-caret-down"></i>
+              {/* <i className="fa fa-caret-down"></i> */}
             </button>
 
             <div className="dropdown-content">
-              <div className="items-cart">
+              <section className="cart-content">
+                <div className="items-cart">
 
-                <img src={logoIMG} alt="" />
+                  <img className='image-cart' src={cartIMG} alt="Texto alternativo" />
 
-                <div className="text">
-                  <h4>Notebook Samsung e texto teste</h4>
-                  <p>Qtd: 1</p>
-                  <p>RS 7.158,21</p>
+                  <div className="text">
+                    <h4>Notebook Samsung e texto teste grgerfeththyj wgergrntynt</h4>
+                    <span className='items-values'>
+                      <a className='quantity'>Qtd: 1</a>
+                      <a className='price'>RS 7.158,21</a>
+                    </span>
+                  </div>
                 </div>
-              </div>
+
+                <div className="items-cart">
+
+                  <img className='image-cart' src={cartIMG} alt="Texto alternativo" />
+
+                  <div className="text">
+                    <h4>Notebook Samsung e texto teste grgerfeththyj wgergrntynt</h4>
+                    <span className='items-values'>
+                      <a className='quantity'>Qtd: 1</a>
+                      <a className='price'>RS 7.158,21</a>
+                    </span>
+                  </div>
+                </div>
+
+                <div className="items-cart">
+
+                  <img className='image-cart' src={cartIMG} alt="Texto alternativo" />
+
+                  <div className="text">
+                    <h4>Notebook Samsung e texto teste grgerfeththyj wgergrntynt</h4>
+                    <span className='items-values'>
+                      <a className='quantity'>Qtd: 1</a>
+                      <a className='price'>RS 7.158,21</a>
+                    </span>
+                  </div>
+                </div>
+
+                <div className="items-cart">
+
+                  <img className='image-cart' src={cartIMG} alt="Texto alternativo" />
+
+                  <div className="text">
+                    <h4>Notebook Samsung e texto teste grgerfeththyj wgergrntynt</h4>
+                    <span className='items-values'>
+                      <a className='quantity'>Qtd: 1</a>
+                      <a className='price'>RS 7.158,21</a>
+                    </span>
+                  </div>
+                </div>
+              </section>
+
+              <span className='total-price'>
+                Total do Pedido: <strong>R$ 20.356,95</strong>
+              </span>
+
+              <button className='btn-finish'>FINALIZAR COMPRA</button>
             </div>
           </div>
 
