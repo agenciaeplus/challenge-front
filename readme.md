@@ -1,4 +1,4 @@
-# Bem vindo ao desafio de Front-End
+# Bem vindo ao desafio Carrinho de Compras
 
 ## No diretório do projeto, você pode executar:
 
